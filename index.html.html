@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nursing Informatics Notes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light blue-gray */
+            color: #334155; /* Dark slate */
+        }
+        .section-header {
+            background-color: #e0f2fe; /* Light sky blue */
+            color: #0c4a6e; /* Darker blue */
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .sub-heading {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1e293b; /* Darker slate */
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #cbd5e1; /* Light gray border */
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        ol {
+            list-style: decimal;
+            margin-left: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+        th, td {
+            border: 1px solid #e2e8f0; /* Light gray */
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f5f9; /* Lighter gray */
+            font-weight: 600;
+            color: #475569; /* Medium slate */
+        }
+        .week-divider {
+            border-top: 3px dashed #94a3b8; /* Medium gray dashed line */
+            margin: 3rem 0;
+        }
+        .link-list li {
+            list-style: none; /* Remove bullet points for links */
+            margin-left: 0;
+        }
+        .link-list a {
+            color: #2563eb; /* Blue for links */
+            text-decoration: underline;
+        }
+        .link-list a:hover {
+            color: #1d4ed8; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-extrabold text-blue-700 mb-2">Nursing Informatics notes</h1>
+            <p class="text-lg text-gray-600">Exploring the intersection of nursing, information, and technology</p>
+        </header>
+
+        <!-- Week 1 -->
+        <section id="week1" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="brain emoji">🧠</span> Week 1: Key Terminologies & Foundations
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Key Terminologies</h3>
+                <ul>
+                    <li><strong>COMPUTER:</strong> Used to manage patient care data, monitor quality, and evaluate outcomes. Networks are used to communicate data via the Internet and interact with patients on the web.</li>
+                    <li><strong>NURSING INFORMATICS (NI):</strong> Integration of nursing, information, and technology to support global health (IMIA, 1998).</li>
+                    <li><strong>CLINICAL INFORMATION SYSTEM (CIS):</strong> A system that creates, stores, retrieves, and uses patient records in healthcare.</li>
+                </ul>
+
+                <h3 class="sub-heading">Six Time Periods in Nursing Informatics</h3>
+                <ol>
+                    <li><strong>PRIOR TO 1960s – SIMPLE BEGINNINGS:</strong> Computers for business transactions; data on punch cards/paper tapes.</li>
+                    <li><strong>1960s – ISSUES AND RESEARCH:</strong> CRT technology introduced; HIS mainly for financial transactions; nursing standards reviewed; vendors slowly entered healthcare.</li>
+                    <li><strong>1970s – GIANT LEAP FOR NI:</strong> Nurses recognized computer value; participated in HIS design; MIS systems developed in the U.S.</li>
+                    <li><strong>1980s – EMERGENCE OF NI:</strong> NI recognized as a specialty; mainframe systems integrated nursing functions; PCs became affordable and usable for nurses.</li>
+                    <li><strong>1990s – AFFIRMATION OF NI:</strong> NI officially approved by ANA; increased demand for computer-based standards; tech used in education, practice, and research.</li>
+                    <li><strong>POST-2000 – RAPID GROWTH:</strong> Wireless, mobile, and open-source solutions emerged; EHR and privacy laws (e.g., HIPAA) implemented.</li>
+                </ol>
+
+                <h3 class="sub-heading">Four Major Nursing Areas</h3>
+                <ul>
+                    <li><strong>NURSING PRACTICE:</strong> EHR includes care plans, data, and standardized terms.</li>
+                    <li><strong>NURSING ADMINISTRATION:</strong> Policies and reports accessed digitally; systems track workload and resources.</li>
+                    <li><strong>NURSING EDUCATION:</strong> Online/distance learning; computer-based teaching methods.</li>
+                    <li><strong>NURSING RESEARCH:</strong> Software supports both qualitative and quantitative analysis; Internet enables access to global research.</li>
+                </ul>
+
+                <h3 class="sub-heading">Standards & Organizations</h3>
+                <ul>
+                    <li><strong>ANA (American Nurses Association):</strong> Developed NI scope and practice standards (2004, 2008).</li>
+                    <li><strong>JCAHO (Joint Commission):</strong> Emphasized accurate nursing documentation and acuity systems.</li>
+                    <li><strong>PNA (Philippine Nurses Association):</strong> Founded 1922; promoted nursing professionalization.</li>
+                    <li><strong>BON (Board of Nursing, PH):</strong> Governed by RA 9173; enforces standards and licensing.</li>
+                </ul>
+
+                <h3 class="sub-heading">Confidentiality & Security</h3>
+                <ul>
+                    <li><strong>HIPAA (1996):</strong> Ensures data privacy and secure handling of patient info.</li>
+                    <li><strong>HITECH Act (2009):</strong> Strengthened HIPAA; enforced patient consent and data security rules.</li>
+                </ul>
+
+                <h3 class="sub-heading">Significant Landmarks</h3>
+                <ul>
+                    <li>1961 – HIMSS founded</li>
+                    <li>1965 – First HIS used at El Camino Hospital</li>
+                    <li>1977 – First NIS research conference</li>
+                    <li>1980 – NI workshop at University of Akron</li>
+                    <li>1990 – NI recognized by ANA</li>
+                    <li>1996 – First Harriet Werley NI award</li>
+                    <li>2003 – HIPAA deadline for electronic standards</li>
+                    <li>2004 – National Health Info Coordinator office created</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 2 -->
+        <section id="week2" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="computer monitor emoji">🖥️</span> Week 2: Electronic Health Records (EHR)
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">What is an EHR?</h3>
+                <ul>
+                    <li>An Electronic Health Record is a digital version of a patient's chart.</li>
+                    <li>It stores lifetime health information for multiple legitimate users.</li>
+                </ul>
+
+                <h3 class="sub-heading">Benefits of EHR</h3>
+                <ul>
+                    <li>Easy accessibility</li>
+                    <li>Multiple data views</li>
+                    <li>Improved provider communication</li>
+                    <li>Patient interaction</li>
+                    <li>Integration with decision support tools</li>
+                    <li>Access to knowledge bases</li>
+                </ul>
+
+                <h3 class="sub-heading">Barriers to EHR Implementation</h3>
+                <ul>
+                    <li>Financial limitations</li>
+                    <li>Technical issues</li>
+                    <li>Time constraints</li>
+                    <li>Psychological resistance</li>
+                    <li>Social and legal concerns</li>
+                    <li>Organizational change resistance</li>
+                </ul>
+
+                <h3 class="sub-heading">Challenges in Paper-Based Health Records</h3>
+                <ul>
+                    <li>Illegible/incomplete notes</li>
+                    <li>Scattered info (not in one place)</li>
+                    <li>No protection against unauthorized access</li>
+                </ul>
+
+                <h3 class="sub-heading">EHR vs. Clinical Information System (CIS)</h3>
+                <ul>
+                    <li><strong>EHR:</strong> Repository of a person’s lifetime health info; usable by various healthcare professionals.</li>
+                    <li><strong>CIS:</strong> Computer-based system for collecting, storing, and using clinical data for care delivery.</li>
+                </ul>
+
+                <h3 class="sub-heading">Nicholas E. Davies & Awards of Excellence</h3>
+                <ul>
+                    <li>Physician, HIMSS advocate for EHR.</li>
+                    <li>President-elect of the American College of Physicians.</li>
+                    <li>Member of the Institute of Medicine.</li>
+                    <li>Believed EHR improves patient care.</li>
+                    <li>Awards given by HIMSS to recognize excellence in EHR implementation.</li>
+                </ul>
+
+                <h3 class="sub-heading">Program Objectives (Davies Award)</h3>
+                <ul>
+                    <li>Promote successful EHR implementations.</li>
+                    <li>Share value and impact of EHR systems.</li>
+                    <li>Provide recognition to organizations with high-impact systems.</li>
+                    <li>Share best practices and strategies.</li>
+                </ul>
+
+                <h3 class="sub-heading">Four Key Criteria in Davies Award Evaluation</h3>
+                <ol>
+                    <li><strong>Management:</strong> Strategy, planning, governance.</li>
+                    <li><strong>Functionality:</strong> How EHR meets patient and organizational needs.</li>
+                    <li><strong>Technology:</strong> Architecture and design.</li>
+                    <li><strong>Value:</strong> Measurable ROI (return on investment).</li>
+                </ol>
+
+                <h3 class="sub-heading">Award-Winning Institutions (Samples)</h3>
+                <ul>
+                    <li><strong>1995:</strong> Intermountain Health Care (UT), Columbia Presbyterian Medical Center (NY), VA Dept. of Veterans Affairs.</li>
+                    <li><strong>1996-2001 (Sample):</strong> Brigham and Women’s Hospital (MA), Kaiser Permanente (OH, CO, OR), Northwestern Memorial Hospital (IL), University of Illinois at Chicago, The Ohio State Medical Center.</li>
+                    <li><strong>2003-2004 (Sample):</strong> Cincinnati Children’s Hospital, Evanston Northwestern Healthcare (IL), Cooper Pediatrics, Roswell Pediatrics (GA), PA, SD, UT Health Departments.</li>
+                </ul>
+
+                <h3 class="sub-heading">Common Characteristics of Awardees</h3>
+                <ul>
+                    <li>EHR seen as essential to strategic vision.</li>
+                    <li>Clear goals for healthcare transformation.</li>
+                    <li>Adequate funding and strong leadership.</li>
+                    <li>Defined governance for implementation.</li>
+                    <li>Efficient planning and budgeting.</li>
+                    <li>Organized documentation systems.</li>
+                </ul>
+
+                <h3 class="sub-heading">Differences Among Awardees</h3>
+                <ul>
+                    <li>Different time spans for implementation.</li>
+                    <li>Varying external challenges.</li>
+                    <li>Diverse use of tech and methods.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 3 -->
+        <section id="week3" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="computer emoji">💻</span> Week 3: Computer Fundamentals
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Definition of a Computer</h3>
+                <p>A computer is:</p>
+                <ul>
+                    <li>A machine with memory</li>
+                    <li>An electronic device with logic functions</li>
+                    <li>Automatic</li>
+                    <li>Capable of manipulating data</li>
+                </ul>
+
+                <h3 class="sub-heading">Components of a Computer System</h3>
+                <ul>
+                    <li><strong>Hardware:</strong> Tangible parts (e.g., CPU, monitor, keyboard).</li>
+                    <li><strong>Software:</strong> Instructions/programs that tell the computer what to do.</li>
+                    <li><strong>Peopleware:</strong> Users or individuals operating the computer.</li>
+                </ul>
+
+                <h3 class="sub-heading">Classes of Computers</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Supercomputer</td>
+                            <td>Fastest computers; used in scientific and research settings.</td>
+                        </tr>
+                        <tr>
+                            <td>Mainframe</td>
+                            <td>Large, powerful, reliable; used in big organizations.</td>
+                        </tr>
+                        <tr>
+                            <td>Microcomputer</td>
+                            <td>Also called Personal Computers (PC); designed for individual use.</td>
+                        </tr>
+                        <tr>
+                            <td>Handheld/PDA</td>
+                            <td>Small enough to fit in a pocket; portable and used on-the-go.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="sub-heading">History of Computers</h3>
+                <ol>
+                    <li><strong>First Generation (1940s–1950s):</strong> Used vacuum tubes. Examples: Colossus, ENIAC, Harvard Mark 1, UNIVAC.</li>
+                    <li><strong>Second Generation:</strong> Used transistors; faster, more reliable, smaller.</li>
+                    <li><strong>Third Generation:</strong> Used integrated circuits (ICs).</li>
+                    <li><strong>Fourth Generation (Modern):</strong> Uses microprocessors; smaller, faster, and more efficient.</li>
+                </ol>
+
+                <h3 class="sub-heading">Central Processing Unit (CPU)</h3>
+                <ul>
+                    <li>Known as the “brain” of the computer.</li>
+                    <li>Executes basic operations called cycles: Fetch → Decode → Execute → Store.</li>
+                    <li>Speed measured in cycles per second (Hertz).</li>
+                </ul>
+
+                <h3 class="sub-heading">Data Units</h3>
+                <ul>
+                    <li><strong>Bit:</strong> Short for Binary Digit (0 or 1).</li>
+                    <li><strong>Byte:</strong> Group of 8 bits.</li>
+                    <li>All computer data is stored as bits and bytes.</li>
+                </ul>
+
+                <h3 class="sub-heading">Basic Hardware Components</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Keyboard</td>
+                            <td>Allows text/data input via keys.</td>
+                        </tr>
+                        <tr>
+                            <td>Mouse</td>
+                            <td>Hand-controlled device for navigation.</td>
+                        </tr>
+                        <tr>
+                            <td>Light Pen</td>
+                            <td>Pen-shaped input device for screen interaction.</td>
+                        </tr>
+                        <tr>
+                            <td>Voice Input</td>
+                            <td>Enables data entry through speech.</td>
+                        </tr>
+                        <tr>
+                            <td>Scanner</td>
+                            <td>Converts printed pages into digital images.</td>
+                        </tr>
+                        <tr>
+                            <td>Webcam</td>
+                            <td>Captures video and images.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="sub-heading">Key Takeaways</h3>
+                <ul>
+                    <li>Computers are automatic, electronic machines with memory and data-manipulating capabilities.</li>
+                    <li>The CPU is essential for processing data.</li>
+                    <li>Hardware + Software + Peopleware = Functional Computer System.</li>
+                    <li>Computer generations show evolution in speed, size, and components used.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 4 -->
+        <section id="week4" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="software icon">💾</span> Week 4: Software & Programming
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">What is Software?</h3>
+                <p>Software is a program that enables a computer to perform specific tasks. It is different from hardware (the physical parts of the computer).</p>
+
+                <h3 class="sub-heading">Types of Computer Software</h3>
+                <ul>
+                    <li><strong>System Software:</strong> Provides a platform for other software.
+                        <ul>
+                            <li>BIOS (Basic Input/Output System): Starts the computer and manages data between OS and hardware.</li>
+                            <li>Operating System (OS): Manages hardware, software, and system resources (e.g., Windows, macOS, Linux).</li>
+                            <li>DOS (Disk Operating System): Older OS with text-based commands.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Application Software:</strong> Programs designed for end users.
+                        <ul>
+                            <li>Word Processor (e.g., MS Word)</li>
+                            <li>Spreadsheet (e.g., MS Excel)</li>
+                            <li>Database Software</li>
+                            <li>Desktop Publishing</li>
+                            <li>Presentation Software (e.g., MS PowerPoint)</li>
+                            <li>Office Suites (e.g., MS Office – a bundle of apps like Word, Excel, PowerPoint)</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3 class="sub-heading">Common Software Used in Nursing Practice</h3>
+                <ul>
+                    <li><strong>Chat Rooms:</strong> Real-time messaging for group communication.</li>
+                    <li><strong>Social Networks:</strong> Online communities for interaction (e.g., Facebook, LinkedIn).</li>
+                    <li><strong>Electronic Bulletin Boards:</strong> Post and read messages at any time (asynchronous).</li>
+                    <li><strong>Listservs:</strong> Functions like mailing lists; posts are emailed to all members.</li>
+                </ul>
+
+                <h3 class="sub-heading">Categories of Programming Languages</h3>
+                <ul>
+                    <li><strong>Machine Language:</strong> Lowest level (1s and 0s), directly understood by the computer.</li>
+                    <li><strong>Symbolic Language:</strong> Uses symbols/mnemonics (e.g., ADD, SUB).</li>
+                    <li><strong>Assembly Language:</strong> Close to machine code, needs translation to run.</li>
+                    <li><strong>High-Level Languages:</strong> Closer to human language; needs to be translated (e.g., Java, Python, C++).</li>
+                </ul>
+
+                <h3 class="sub-heading">Common Programming Languages</h3>
+                <ul>
+                    <li><strong>BASIC:</strong> Beginner’s All-Purpose Symbolic Instruction Code.</li>
+                    <li><strong>COBOL:</strong> Common Business Oriented Language.</li>
+                    <li><strong>FORTRAN:</strong> Formula Translation (used in scientific computing).</li>
+                    <li><strong>Pascal:</strong> Educational programming language.</li>
+                </ul>
+
+                <h3 class="sub-heading">Computer Programming Process (5 Major Steps)</h3>
+                <ol>
+                    <li>Problem Definition</li>
+                    <li>Program Design</li>
+                    <li>Writing the Code</li>
+                    <li>Program Documentation</li>
+                    <li>Testing (Alpha Testing, Beta Testing)</li>
+                </ol>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 5 -->
+        <section id="week5" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="gear emoji">⚙️</span> Week 5: Computer & Information Systems
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Definition of a Computer System</h3>
+                <p>A computer system is:</p>
+                <ul>
+                    <li>A complex entity (like the human body)</li>
+                    <li>Made up of peripherals, computer box, and software</li>
+                    <li>Designed to perform computing functions</li>
+                </ul>
+
+                <h3 class="sub-heading">System Theory Core Concepts</h3>
+                <ul>
+                    <li><strong>Input:</strong> Feeds from the external environment that start system functions.</li>
+                    <li><strong>Processing:</strong> Mathematical, logical, or data transfer operations (CPU, RAM, ROM).</li>
+                    <li><strong>Output:</strong> End product or result of the process.</li>
+                    <li><strong>Control:</strong> Prevents or corrects errors in input, process, or output.</li>
+                    <li><strong>Feedback:</strong> Output reused as input for system self-regulation.</li>
+                    <li><strong>Interdependence:</strong> System parts depend on each other and interact.</li>
+                </ul>
+
+                <h3 class="sub-heading">System Classifications</h3>
+                <ul>
+                    <li><strong>Closed System:</strong> Has clear and sealed boundaries; highly restricted input; doesn’t interact freely with environment.</li>
+                    <li><strong>Open System:</strong> Has fluid boundaries; integrates and interacts with other systems; may be a subsystem of a bigger system.</li>
+                </ul>
+
+                <h3 class="sub-heading">Information System Definition</h3>
+                <p>A set of people, procedures, and resources that collects, transforms, and distributes information in an organization.</p>
+
+                <h3 class="sub-heading">Types of Information Systems</h3>
+                <ul>
+                    <li><strong>Management Information System (MIS):</strong> Helps managers track business operations (e.g., financial reports, hospital occupancy).</li>
+                    <li><strong>Transaction Processing System (TPS):</strong> Handles repetitive operations and order updates in real time.</li>
+                    <li><strong>Physiologic Monitoring System (PMS):</strong> Automatically tracks vital signs and continuous physiological data.</li>
+                    <li><strong>Knowledge Work System (KWS):</strong> Helps skilled professionals develop and apply new knowledge.</li>
+                    <li><strong>Office Automation System (OAS):</strong> Manages documents and internal communications (e.g., emails, word processing).</li>
+                    <li><strong>Executive Support System (ESS):</strong> Assists senior managers in strategic decision-making.</li>
+                    <li><strong>Bibliographic Retrieval System:</strong> Stores and retrieves bibliographic or literature-based data.</li>
+                    <li><strong>Stand-Alone / Dedicated / Turnkey System:</strong> Designed for one specific application only.</li>
+                    <li><strong>Decision Support System (DSS):</strong> Assists users in decision-making, without replacing human judgment.</li>
+                    <li><strong>Expert System:</strong> Simulates expert reasoning to make decisions in specific scenarios.</li>
+                    <li><strong>Artificial Intelligence (AI) System:</strong> Mimics human reasoning; can learn and adjust based on new data.</li>
+                    <li><strong>Natural Language System:</strong> Processes human language (voice or handwriting).</li>
+                </ul>
+
+                <h3 class="sub-heading">Hospital Information System (HIS)</h3>
+                <p><strong>Purpose:</strong> Manages medical and administrative hospital data; helps health professionals work effectively and efficiently.</p>
+                <p><strong>Modules:</strong> Order Entry System, Order Entry Result Reporting Module, Charting Systems, Lab, Pharmacy, Radiology Module, POS System, Semiclinical and Clinical Modules.</p>
+
+                <h3 class="sub-heading">Types of Networks</h3>
+                <ul>
+                    <li><strong>LAN (Local Area Network):</strong> Small area (e.g., office).</li>
+                    <li><strong>MAN (Metropolitan Area Network):</strong> Covers a city.</li>
+                    <li><strong>WAN (Wide Area Network):</strong> Covers large geographic areas.</li>
+                    <li><strong>HAN (Home Area Network):</strong> Personal home devices.</li>
+                    <li><strong>CAN (Campus Area Network):</strong> Used in schools or campuses.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 7 -->
+        <section id="week7" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="database emoji">🗄️</span> Week 7: Databases & Data Classification
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Computer System Definition (revisited)</h3>
+                <p>A collection of methods, practices, algorithms and methodologies that transforms data into information and knowledge desired by, and useful for, individual and group users in organizations and other entities. This system can involve a combination of information, work people, practices, and technologies organized to accomplish goals in an organization.</p>
+
+                <h3 class="sub-heading">System Theory Core Concepts (Data Focus)</h3>
+                <ul>
+                    <li><strong>Data:</strong> Refers to a collection of organized observations of a set of variables or measurements. This may consist of numbers, particularly within a computer system, or a set of other information or observation usually the result of information, experience, experiment, images, or words, of premises.</li>
+                    <li><strong>Database:</strong> A collection of information that is organized so that it can easily be accessed, managed, and updated.</li>
+                    <li><strong>Database Management System (DBMS):</strong> Computer programs used to input, store, modify, process, and access data in a database. Consists of data, configured DBM software, and query language.</li>
+                </ul>
+
+                <h3 class="sub-heading">Database Operations</h3>
+                <ul>
+                    <li><strong>Inputs:</strong> Entry, update, modification of data.</li>
+                    <li><strong>Process:</strong> Conversion of data into meaningful operations.</li>
+                    <li><strong>Output:</strong> Includes online and written reports.</li>
+                </ul>
+
+                <h3 class="sub-heading">System Classifications (Software Focus)</h3>
+                <ul>
+                    <li><strong>Free Software (FS):</strong> Users are FREE to use for any purpose, examine how it works, distribute, and improve.</li>
+                    <li><strong>Open Source Software (OSS):</strong> Freedom to redistribute, source code must be included, freedom to create derived works, integrity of author's source code, no discrimination. Key figure: Bruce Perens.</li>
+                </ul>
+
+                <h3 class="sub-heading">Information System Definition (revisited)</h3>
+                <p>A collection of methods, practices, algorithms and methodologies that transforms data into information and knowledge desired by, and useful for, individual and group users in organizations and other entities. This system can involve a combination of information, work people, practices, and technologies organized to accomplish goals in an organization.</p>
+
+                <h3 class="sub-heading">OSS and FS Window-Based Applications</h3>
+                <ul>
+                    <li><strong>Mozilla Firefox:</strong> The premier free, open-source browser. Tabs, pop-up blocking, themes, and extensions. Considered by many to be the world's best browser.</li>
+                    <li><strong>Miro:</strong> With beautiful interface. Plays any video type (much more than windows media player). Subscribe to video RSS, download, and watch all in one. Torrent supported.</li>
+                    <li><strong>Pidgin:</strong> Connects to multiple IM accounts simultaneously.</li>
+                    <li><strong>Mozilla Thunderbird:</strong> Powerful spam filtering, email client.</li>
+                    <li><strong>Cabos:</strong> Simple file sharing program (Gnutella network).</li>
+                    <li><strong>Open Office:</strong> Full-featured suite for word processing and spreadsheets, compatible with MS Office.</li>
+                    <li><strong>GIMP:</strong> Photo editing application rivaling Photoshop.</li>
+                </ul>
+
+                <h3 class="sub-heading">OSS and FS Health Care Applications</h3>
+                <ul>
+                    <li><strong>Open EHR/EMR:</strong> International non-profit for interoperable, lifelong EHRs. Offers practice management, EMR, prescription writing, electronic billing.</li>
+                    <li><strong>Free MED:</strong> OSS/FS electronic medical record (EMR) and billing system.</li>
+                    <li><strong>CARE 2x:</strong> Integrated healthcare information system (HIS), originated by a surgery nurse.</li>
+                </ul>
+
+                <h3 class="sub-heading">Database Models</h3>
+                <ul>
+                    <li><strong>ONE TO ONE:</strong> Single data element in relation to singular data element.</li>
+                    <li><strong>ONE TO MANY:</strong> A single data element related to more than one data element (e.g., individual medication order with multiple doses).</li>
+                    <li><strong>MANY TO MANY:</strong> Multiple data elements related to set of data element.</li>
+                </ul>
+
+                <h3 class="sub-heading">Classifications of Data</h3>
+                <ul>
+                    <li><strong>CONCEPTUAL:</strong> Based on how data will be used. These can also be based on the source of the data.</li>
+                    <li><strong>COMPUTER DATABASE:</strong> Based on computerized data type and grouped into alphanumeric, Numeric, and Logic.</li>
+                </ul>
+
+                <h3 class="sub-heading">Types of Files</h3>
+                <ul>
+                    <li><strong>DATA FILES:</strong> Contains data captured and stored using a software program.</li>
+                    <li><strong>PROCESSING FILES:</strong> Executable program or instructions that open a specific computer program.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 8 -->
+        <section id="week8" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="globe emoji">🌐</span> Week 8: Internet & Mobile Computing
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Definitions</h3>
+                <ul>
+                    <li><strong>Internet:</strong> A system architecture that has revolutionized communications and methods of commerce by allowing various computer networks around the world to interconnect. Sometimes referred to as a "network of networks."</li>
+                    <li><strong>Mobile Computing:</strong> Human–computer interaction where a computer is transported during normal usage, allowing data transmission (voice, video). Involves mobile communication, hardware, and software.</li>
+                </ul>
+
+                <h3 class="sub-heading">History and Core Concepts of the Internet</h3>
+                <ul>
+                    <li><strong>Vannevar Bush:</strong> Associated with "MEMEX" system (automated library system).</li>
+                    <li><strong>Norbert Wiener:</strong> Invented "CYBERNETICS" (using technology to extend human capabilities).</li>
+                    <li><strong>Marshall McLuhan:</strong> Popularized "GLOBAL VILLAGE" interconnected by an electronic nervous system.</li>
+                    <li><strong>Dr. Joseph Carl Robnett Licklider:</strong> Formulated earliest ideas of global networking in 1962, envisioning an "Intergalactic Computer Network" with modern Internet features (graphical computing, user-friendly interfaces, digital libraries, e-commerce, online banking, cloud computing).</li>
+                    <li><strong>Paul Baran & Donald Davies:</strong> Discovered "Packet Switching."</li>
+                    <li><strong>Lawrence Gilman Roberts:</strong> Led network development based on packet switching.</li>
+                    <li><strong>Vint Cerf & Robert Elliot Kahn:</strong> Co-designed TCP/IP protocols.</li>
+                    <li><strong>TCP/IP (Transmission Control Protocol/Internet Protocol):</strong> Fundamental communication protocols.</li>
+                    <li><strong>Packet Switching:</strong> Underlying concept for network development.</li>
+                    <li><strong>Interface Message Processor (IMP):</strong> First packet-router, precursor to modern Internet routers.</li>
+                </ul>
+
+                <h3 class="sub-heading">Internet Characteristics</h3>
+                <ul>
+                    <li>Worldwide network of interconnected computer networks using standard communication protocols.</li>
+                    <li>Highly decentralized and independent of underlying physical media.</li>
+                    <li>Traffic can travel through copper wire, coaxial cable, optical fiber, and radio waves.</li>
+                </ul>
+
+                <h3 class="sub-heading">Mobile Computing in Nursing</h3>
+                <ul>
+                    <li>Provides insights into how nurses use mobile computing solutions at the bedside.</li>
+                    <li>Aims to solve existing workflow inefficiencies.</li>
+                    <li><strong>Benefits:</strong> Easy to stay connected, peer-to-peer interaction, immediate downloads, telecommuting.</li>
+                </ul>
+
+                <h3 class="sub-heading">Wireless Devices</h3>
+                <ul>
+                    <li>Data transferred via electromagnetic waves.</li>
+                    <li><strong>Advantage:</strong> Facilitates work in places where wired devices are impractical.</li>
+                    <li><strong>Examples:</strong> Laptop, Flashdrive, Radio, Personal Digital Assistant (PDA), Cellphone.</li>
+                </ul>
+
+                <h3 class="sub-heading">Web Navigation and Search Engines</h3>
+                <p><strong>Navigation Directions:</strong> Back, Forward, Link, Jump.</p>
+                <p><strong>Navigation Techniques:</strong> Surfing, Chains, Reload, Stopping, Restarting.</p>
+                <p><strong>Search Engines:</strong> Directories/Indexes identify general information by searching website content using "robots" and "spiders."</p>
+
+                <h3 class="sub-heading">Anatomy of an Email Address (Example: hyper_yke@yahoo.com)</h3>
+                <ul>
+                    <li>User Name (hyper_yke)</li>
+                    <li>'At' Symbol (@)</li>
+                    <li>Email Provider / Organizational Code (yahoo)</li>
+                    <li>Email Domain / Top-Level Domain (.com)</li>
+                </ul>
+
+                <h3 class="sub-heading">Evaluating Quality Health Information on the Internet</h3>
+                <ul>
+                    <li><strong>Credibility:</strong> Source of information and timeliness of content.</li>
+                    <li><strong>Content:</strong> (General criterion).</li>
+                    <li><strong>Disclosure:</strong> (General criterion).</li>
+                    <li><strong>Links:</strong> Judge accuracy by examining hierarchy of events, presence of original sources, and quality of provided links.</li>
+                    <li><strong>Design:</strong> Site accessibility and convenience of use.</li>
+                    <li><strong>Interactivities:</strong> (General criterion).</li>
+                    <li><strong>Caveats:</strong> (General criterion).</li>
+                </ul>
+
+                <h3 class="sub-heading">Top-Level Domains (TLDs)</h3>
+                <ul>
+                    <li><strong>.edu:</strong> Educational sites (universities, colleges).</li>
+                    <li><strong>.com:</strong> Commercial businesses.</li>
+                    <li><strong>.gov:</strong> Government (non-military).</li>
+                    <li><strong>.mil::</strong> Military sites or agencies.</li>
+                    <li><strong>.net:</strong> Networks, internet service providers, organizations.</li>
+                    <li><strong>.org:</strong> Non-profit organizations and others.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 10 -->
+        <section id="week10" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="clipboard emoji">📋</span> Week 10: Healthcare Data Standards
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Healthcare Data Standards</h3>
+                <ul>
+                    <li><strong>Assuring Quality Care:</strong> Quality assurance in healthcare involves activities and measures designed to ensure continuous improvement in the quality of medical care. Custom software solutions automate tracking of metrics, helping identify problems with care delivery. Quality assurance is a vital aspect.</li>
+                    <li><strong>Standards Interoperability:</strong> Ability of different information systems to connect and exchange data. Goal: optimize health of individuals and populations (HIMSS, 2018).</li>
+                    <li><strong>Syntax:</strong> Refers to spelling and grammar.</li>
+                    <li><strong>Semantics:</strong> Refers to meaning, definition, and explanation.</li>
+                </ul>
+
+                <h3 class="sub-heading">Categories of Standards</h3>
+                <ul>
+                    <li><strong>Data Exchange / Messaging Standards:</strong> Facilitate data exchange between systems (e.g., Digital Imaging and Communications in Medicine (DICOM) for imaging modalities like radiography, ultrasonography, CT, MRI, and radiation therapy; National Council for Prescription Drug Programs (NCPDP) for prescription drug programs).</li>
+                    <li><strong>Terminology Standards:</strong> Provide consistent medical and nursing terminologies.</li>
+                    <li><strong>Document Standards:</strong> Define structure and content of healthcare documents.</li>
+                    <li><strong>Conceptual Standards:</strong> Define concepts and relationships used in healthcare data.</li>
+                    <li><strong>Application Standards:</strong> Determine how business rules are implemented and how software systems interact.</li>
+                    <li><strong>Architecture Standards:</strong> Define the process involved in data storage and distribution.</li>
+                </ul>
+
+                <h3 class="sub-heading">Benefits of Healthcare Data Standards</h3>
+                <ul>
+                    <li>Allows healthcare organizations to conduct outcome analysis with comparable data.</li>
+                    <li><strong>Unintended Benefits:</strong> Improved charting, promotes best practices, improves case management, helps prevent adverse drug interactions, enhances patient satisfaction.</li>
+                </ul>
+
+                <h3 class="sub-heading">Healthcare Organizations and Standard Development</h3>
+                <ul>
+                    <li><strong>Healthcare Organizations:</strong> Include service delivery entities, regulators, vendors, and consultants.</li>
+                    <li><strong>Standards Development Organizations:</strong> ANSI, CEN, ISO, IHE, PHDSC.</li>
+                </ul>
+
+                <h3 class="sub-heading">Nursing Minimum Data Sets and Classifications</h3>
+                <ul>
+                    <li><strong>Nursing Minimum Data Set (NMDS):</strong> A minimum set of nursing data elements.</li>
+                    <li><strong>Home Health Care Classification (HHCC):</strong> Nursing classification system for home healthcare.</li>
+                    <li><strong>Patient Care Data Set (PCDS) ver. 4.0:</strong> A data set for patient care information.</li>
+                    <li><strong>Nursing Management Minimum Data Set (NMMDS):</strong> A minimum data set for nursing management.</li>
+                </ul>
+
+                <h3 class="sub-heading">Components of Advanced Terminology Systems</h3>
+                <ul>
+                    <li>Computer-based tools.</li>
+                    <li>Terminology Model – Schemata / Type Definition.</li>
+                    <li>Representation Language - Ontology Language.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 11 -->
+        <section id="week11" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="shield emoji">🛡️</span> Week 11: Dependable Nursing Information Systems
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Dependable Nursing Information Systems Context</h3>
+                <p>The healthcare industry is transitioning from an inefficient, costly, manually intensive, and crises-driven model of care to a more efficient, consumer-centered, science-based model focused on health management.</p>
+
+                <h3 class="sub-heading">Dependability Definition</h3>
+                <p>Ethical obligations drive requirements for system reliability, availability, confidentiality, data integrity, responsiveness, and safety, which are collectively referred to as dependability.</p>
+
+                <h3 class="sub-heading">Dependability Measure</h3>
+                <p>Dependability is a measure of the extent to which a system can justifiably be relied on to deliver its expected services.</p>
+
+                <h3 class="sub-heading">Attributes of Dependability</h3>
+                <ul>
+                    <li><strong>System Reliability:</strong> The system consistently behaves the same way.</li>
+                    <li><strong>System Availability:</strong> The system is operational and accessible when needed.</li>
+                    <li><strong>Confidentiality:</strong> Protecting sensitive information from unauthorized access.</li>
+                    <li><strong>Data Integrity:</strong> Ensuring data is accurate, complete, and consistent.</li>
+                    <li><strong>Responsiveness:</strong> The system reacts to user input and performs tasks within an acceptable time frame.</li>
+                    <li><strong>Safety:</strong> The system does not cause harm to patients or users.</li>
+                </ul>
+
+                <h3 class="sub-heading">Clinical Information System (CIS)</h3>
+                <ul>
+                    <li><strong>Problem:</strong> Healthcare providers struggle to track a staggering amount of information, and failure to do so can detrimentally affect patient care.</li>
+                    <li><strong>Solution:</strong> A Clinical Information System (CIS) is designed to manage patient data in the information age.</li>
+                    <li><strong>Purpose:</strong> It is intended to replace the Medical Records Department of a medical institution, supporting the acquisition, storage, manipulation, and distribution of clinical information throughout the organization.</li>
+                </ul>
+
+                <h3 class="sub-heading">Phases of System Development/Implementation</h3>
+                <h4>A. The Planning Phase:</h4>
+                <ul>
+                    <li><strong>Initiation:</strong> Begins when an organization determines that an existing need or problem can be solved by developing or implementing a CIS or application.</li>
+                    <li><strong>1. Definition of the Problem:</strong> Includes a description of how the system will be evaluated. Establishing evaluation criteria early supports the philosophy of "beginning with the end in mind". Realistic goals describe the expected results and improvements from the system.</li>
+                    <li><strong>2. Data Collection:</strong> First step in system analysis, involving collection of data reflecting the existing problem or goal. Thorough data collection may lead to refinements in the project scope agreement and added benefits.</li>
+                    <li><strong>3. Data Analysis:</strong> Provides data for developing an overview of the nursing problem and/or stated goal defined in the project scope agreement. Tools: Data flowchart, Grid chart, Decision table, Organizational Chart Model.</li>
+                    <li><strong>4. Data Review:</strong> Focuses on resolving problems or attaining goals defined in the feasibility study based on workflow documents and functional design. Recommendations for streamlining workflow are suggested.</li>
+                    <li><strong>5. Benefits Identification:</strong> Should reflect the resolution of the identified problem, formulated and stated in quantifiable terms. Proposed benefit statements become criteria for measuring the success of the problem.</li>
+                    <li><strong>6. System Proposal Development:</strong> Includes submission to the project’s steering committee for review and approval. Final proposal forms the basis for the next phase.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 13 -->
+        <section id="week13" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="heartbeat emoji">❤️</span> Week 13: Critical Care & Community Health
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Critical Care Nurse</h3>
+                <ul>
+                    <li><strong>Definition:</strong> A licensed professional nurse responsible for ensuring that acutely and critically ill patients receive optimal care.</li>
+                    <li><strong>Practice Focus:</strong> Complex assessment, high-intensity therapies and interventions, and continuous nursing vigilance.</li>
+                </ul>
+
+                <h3 class="sub-heading">Clinical Care Information System (CCIS)</h3>
+                <ul>
+                    <li><strong>Definition:</strong> A system designed to collect, store, organize, retrieve, and manipulate all data related to the care of critically-ill clients.</li>
+                    <li><strong>Components:</strong> Patient Management, Vital Signs Monitoring, Diagnostic Testing Results, Clinical Documentation, Clinical Decision Support, Medication Management, Healthcare Provider Order Entry.</li>
+                </ul>
+
+                <h3 class="sub-heading">Information Technology Capabilities in Critical Care Settings</h3>
+                <ul>
+                    <li>Process, store, and integrate physiologic and diagnostic information from various sources.</li>
+                    <li>Present deviations from preset ranges by an alarm or an alert.</li>
+                    <li>Accept and store patient care documentation in a lifetime clinical repository.</li>
+                    <li>Trend data over time for analysis.</li>
+                </ul>
+
+                <h3 class="sub-heading">EMR vs. EHR</h3>
+                <ul>
+                    <li><strong>Electronic Medical Record (EMR):</strong> Digital version of the paper charts in the clinician’s office. Contains medical and treatment history from one practice.</li>
+                    <li><strong>Electronic Health Record (EHR):</strong> Designed to share information with other healthcare providers, such as laboratories and specialists. Contains a more comprehensive patient history.</li>
+                </ul>
+
+                <h3 class="sub-heading">Meaningful Use</h3>
+                <p>Using certified EHR technology to:</p>
+                <ul>
+                    <li>Improve quality, safety, efficiency, and reduce health disparities.</li>
+                    <li>Engage patients and family.</li>
+                    <li>Improve care coordination and population and public health.</li>
+                    <li>Maintain privacy and security of patient health information.</li>
+                </ul>
+
+                <h3 class="sub-heading">Community Health Network System</h3>
+                <ul>
+                    <li><strong>Functions:</strong> Download patient records from the hospital to the home database. Enter a set of questions about symptoms using expert system logic until pathways are concluded. Track self-care and, depending on responses, call or make an appointment with a clinician. Provide additional information on the condition if self-care is appropriate.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 14 -->
+        <section id="week14" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="hospital emoji">🏥</span> Week 14: Healthcare Information Portals
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Governmental Portals</h3>
+                <ul class="link-list">
+                    <li><strong>National Library of Medicine (NLM):</strong> Categories include Bibliographic, Consumer health, and Other information resources. URL: <a href="http://gateway.nlm.nih.gov/gw/Cmd" target="_blank">http://gateway.nlm.nih.gov/gw/Cmd</a></li>
+                    <li><strong>AHRQ (Agency for Healthcare Research and Quality):</strong> A federal agency that conducts and sponsors research on healthcare quality, safety, and cost-effectiveness. Its "Consumers & Patients" section offers information on specific conditions, health insurance plans, prescriptions, health, and wellness. Provides information for practitioners on disaster preparedness, quality, patient safety, datasets, and research findings.</li>
+                    <li><strong>National Institute of Nursing Research (NINR):</strong> One of the National Institutes of Health (NIH), supporting nursing research in clinical and community settings through grants and funding. Offers information on its funding initiatives (including diversity programs), links to nursing organizations for various specialties, and publications from conferences. URL: <a href="http://ninr.nih.gov/ninr/index.html" target="_blank">http://ninr.nih.gov/ninr/index.html</a></li>
+                    <li><strong>PubMed Central:</strong> A free digital archive of biomedical and life sciences journal literature.</li>
+                    <li><strong>NIH Health Information:</strong> Another directory of consumer health information, organized by conditions, body systems, patient type, etc. Provides links to MedlinePlus and specific institutes within NIH. URL: <a href="http://health.nih.gov/" target="_blank">http://health.nih.gov/</a></li>
+                </ul>
+
+                <h3 class="sub-heading">Non-Governmental Portals</h3>
+                <ul class="link-list">
+                    <li><strong>BioMed Central:</strong> Publishes over 140 open-access journals covering all areas of biology and medicine. Includes journals on nutrition, public/international health, and BMC Nursing. URL: <a href="http://www.biomedcentral.com/home/" target="_blank">http://www.biomedcentral.com/home/</a></li>
+                    <li><strong>Healthweb:</strong> A well-organized collection of evaluated, non-commercial resources. A collaborative project by health sciences libraries at over 20 academic medical centers in the Midwest. Offers easy-to-use searching or Browse by categories (e.g., AIDS and HIV to Women’s Health), with annotated links in subcategories. URL: <a href="http://healthwebnav.org/" target="_blank">http://healthwebnav.org/</a></li>
+                    <li><strong>Mayo Clinic: Tools for Healthier Lives:</strong> Users can choose categories like "Diseases & Conditions," "Drugs & Supplements," "Treatment Decisions," "Healthy Living," "Ask a Specialist."</li>
+                    <li><strong>WHO (World Health Organization):</strong> An excellent source of global health information, including statistics and country-by-country health overviews. Well-indexed and easy to navigate. Users can search WHOLIS for full-text WHO health information. URL: <a href="http://www.who.int/en/" target="_blank">http://www.who.int/en/</a></li>
+                </ul>
+
+                <h3 class="sub-heading">Nursing Specialties and Disease-Specific Sites</h3>
+                <ul class="link-list">
+                    <li><strong>Alzheimer’s Association:</strong> Provides information and support to family members, caregivers, and health professionals on Alzheimer's disease. Updated daily with news, resources, information, fact sheets, and a diversity toolbox.</li>
+                    <li><strong>HIV In-Site: Gateway to AIDS Knowledge:</strong> Provided by the University of California-San Francisco School of Medicine. Offers comprehensive, up-to-date information on HIV/AIDS treatment, prevention, and policy. Divided into five sections: Knowledge Base (online textbook), medical treatment information, commentary, resources, prevention, policy analysis, and countries/regions.</li>
+                    <li><strong>ANA (American Nurses Association):</strong> Provides information on current nursing issues (workplace rights, patient safety, ethics) and a career center with a searchable jobs database, resume posting, and job-seeking advice. Some content is member-only, but much quality free information is available. URL: <a href="http://www.ana.org" target="_blank">http://www.ana.org</a></li>
+                    <li><strong>ICN (International Council of Nurses):</strong> A federation of National Nurses’ Associations (NNAs), representing nurses in over 128 countries. Focuses on quality in international nursing and global health policy. URL: <a href="http://www.icn.ch/index.html" target="_blank">http://www.icn.ch/index.html</a></li>
+                    <li><strong>Links to Nursing Organizations at the National Institute of Nursing Research (NINR):</strong> Offers an excellent list of links to numerous organizations representing nursing specialties and issues. URL: <a href="http://ninr.nih.gov/ninr/links/organizations.html" target="_blank">http://ninr.nih.gov/ninr/links/organizations.html</a></li>
+                    <li><strong>National Council of State Boards of Nursing (NCSBN):</strong> A non-profit membership organization comprising State Boards of Nursing from the US and its territories. Develops and administers the National Council Licensure Examination (NCLEX).</li>
+                    <li><strong>National Federation of Licensed Practical Nurses (NFLPN):</strong> Offers information on scholarships, links to state affiliates, and an online discussion forum. URL: <a href="http://www.nflpn.org/" target="_blank">http://www.nflpn.org/</a></li>
+                    <li><strong>Philippine Nurses Association (PNA):</strong> A Philippine-based nursing resource. Includes a Nurse Directory with information on nursing companies, review centers, schools, caregivers, and articles.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 15 -->
+        <section id="week15" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="book emoji">📚</span> Week 15: Nursing Education & Global Informatics
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">The Nursing Curriculum in the Information Age</h3>
+                <ul>
+                    <li><strong>Information-Intensive Profession:</strong> Nursing is inherently an information-intensive profession.</li>
+                    <li><strong>Education's Reliance on Information:</strong> Nursing education heavily relies on the acquisition of information to educate students in their professional programs.</li>
+                </ul>
+
+                <h3 class="sub-heading">Health Informatics and Education</h3>
+                <ul>
+                    <li><strong>Purpose:</strong> Health informatics will enable medical and paramedical students, practitioners, and faculty members to access and critically evaluate biomedical information.</li>
+                    <li><strong>Health Informatics Problem in the Philippines:</strong> (The document mentions this as a heading but does not elaborate on the specific problem.)</li>
+                </ul>
+
+                <h3 class="sub-heading">Nursing Education Online Resources</h3>
+                <ul class="link-list">
+                    <li><strong>Nurse.com:</strong> Provides continuing education in a wide range of nursing topics. Users can access online courses, webcasts, and learn about CE requirements by state. Access: <a href="http://www.nurse.com" target="_blank">http://www.nurse.com</a>.</li>
+                    <li><strong>Distance Learning - University of Phoenix:</strong> Offers graduate and undergraduate degrees entirely online, including MSN, RN to BSN, and RN to MSN. Access: <a href="http://www.phoenix.edu/online_degrees/nursing.html" target="_blank">http://www.phoenix.edu/online_degrees/nursing.html</a>.</li>
+                    <li><strong>Kaplan Nursing:</strong> Offers test preparation materials for nursing exams (NCLEX-RN, NCLEX-PN, PN, etc.), online courses, and question banks. Access: <a href="http://www.kaplannursing.com/" target="_blank">http://www.kaplannursing.com/</a>.</li>
+                </ul>
+
+                <h3 class="sub-heading">Clinical Tools and References</h3>
+                <ul class="link-list">
+                    <li><strong>ePocrates:</strong> A mobile drug reference for PDAs (Personal Digital Assistants) and smartphones. Provides comprehensive information including drug-drug interactions, a pill identifier, and a formulary. Access: <a href="http://www.epocrates.com" target="_blank">http://www.epocrates.com</a>.</li>
+                    <li><strong>RN Central:</strong> Provides over 1,500 pre-written nursing care plans under categories like "Altered/Alterations," "Impaired/Impairment," and "General." Plans can be customized.</li>
+                </ul>
+
+                <h3 class="sub-heading">Global Health Informatics</h3>
+                <h4>United States:</h4>
+                <ul>
+                    <li>Homer R. Warner founded the Department of Medical Informatics at the University of Utah in 1968.</li>
+                    <li>The American Medical Informatics Association (AMIA) has an award named after Homer R. Warner for the application of informatics to medicine.</li>
+                    <li>The HIPAA of 1996 provided an impetus for physicians to use EMR software primarily for secure medical billing.</li>
+                    <li>The US Department of Health and Human Services (HHS) formed the Office of the National Coordinator for Health Information Technology (ONCHIT).</li>
+                    <li>The Certification Commission for Healthcare Information Technology (CCHIT) was funded by the U.S. Department of Health and Human Services in 2005.</li>
+                    <li>CCHIT released its first list of 22 certified ambulatory EHR products in July 2006.</li>
+                </ul>
+                <h4>Europe:</h4>
+                <ul>
+                    <li>European Union's Member States are committed to sharing best practices and experiences to create a European eHealth Area.</li>
+                    <li>The European eHealth Action Plan plays a fundamental role in the European Union's strategy.</li>
+                    <li>The European Institute for Health Research.</li>
+                </ul>
+                <h4>Asia:</h4>
+                <ul>
+                    <li>Health Information Technology is entering its 2nd software generation, and IT usage in hospitals resembles that of the late 1970s in the US.</li>
+                    <li>Most hospitals incorporate IT software into payment and billing, and many have integrated IT into clinical systems in the past 5 years.</li>
+                    <li>Use of IT in clinical systems has often emerged on a departmental basis.</li>
+                    <li>Hospitals encountered obstacles such as fragmentation, duplicative systems, and poor integration, leading to "information islands" that impede data sharing.</li>
+                </ul>
+                <h4>Australia:</h4>
+                <ul>
+                    <li>The Australian College of Health Informatics (ACHI) was formed in 2002 as a professional association and peak health informatics professional body.</li>
+                    <li>ACHI represents a broad range of clinical and non-clinical professionals working in health informatics through commitment to quality, standards, and ethical practice.</li>
+                    <li>It works to enhance national capacity in health informatics for research, education, training, policy, and system implementation.</li>
+                </ul>
+                <h4>Philippines:</h4>
+                <ul>
+                    <li>The UP College of Medicine Ophthalmology Department streamlined the process of recording doctors’ notes, improving patient health and reducing administrative costs.</li>
+                    <li>Sentro Oftalmologico Jose Rizal at the University of the Philippines, Manila, is also mentioned.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="week-divider"></div>
+
+        <!-- Week 16 (Future & Role of NI) -->
+        <section id="week16" class="mb-12">
+            <h2 class="section-header">
+                <span role="img" aria-label="chart increasing emoji">📈</span> Week 16: Future & Role of Nursing Informatics
+            </h2>
+            <div class="card">
+                <h3 class="sub-heading">Future of Nursing Informatics</h3>
+                <ul>
+                    <li>Nursing Informatics uses computer technology to decrease costs, increase patient-nurse interactions, and decrease redundancy of documentation.</li>
+                    <li>It helps the healthcare industry stay marketable in a changing world.</li>
+                    <li>It aids nurses by helping to obtain important data for patients and guiding decisions in patient care.</li>
+                    <li>It is a growing field for advancement and offers potential areas for cost containment.</li>
+                </ul>
+
+                <h3 class="sub-heading">The Role of Informatics in Nursing</h3>
+                <ul>
+                    <li>Informatics nurses are key people.</li>
+                    <li>Information is power and critical for decision-making.</li>
+                    <li>Nursing is a cognitive profession, with the core of nursing (ADPIE - Assessment, Diagnosis, Planning, Implementation, Evaluation) taking place in nurses' minds.</li>
+                    <li><strong>Key actions:</strong> Identify potential problems. Identify changes in patient status that can occur quickly. Ensure information is readily available. Interpret, systematize, and arrange data. Formalize an appropriate plan of action. Align Nursing Best Practice with Clinical workflows & care. Improve clinical policies, protocols, processes & procedures. Standardizing Nursing Language: The use of a template can remind nurses of important information required in patient care documentation.</li>
+                </ul>
+
+                <h3 class="sub-heading">Telehealth</h3>
+                <ul>
+                    <li><strong>Savings:</strong> Provides savings in improved access to care, allowing clients to be treated earlier and with fewer interventions. Clients receive treatment in their own community where services cost less.</li>
+                    <li>Improves quality of care and continuity of care through convenient follow-up.</li>
+                    <li><strong>Applications:</strong> Vary greatly, including client monitoring, diagnostic evaluations, decision support systems, storage and retrieval, research, voice recognition for dictation, and education of healthcare professionals and consumers.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm mt-12 mb-4">
+            <p>&copy; 2025 Comprehensive Nursing Informatics. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
